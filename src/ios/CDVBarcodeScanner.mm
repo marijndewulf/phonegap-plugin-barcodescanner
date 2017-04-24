@@ -894,10 +894,10 @@ parentViewController:(UIViewController*)parentViewController
 //--------------------------------------------------------------------------
 - (UIView*)buildOverlayView {
     
-    if ( nil != self.alternateXib )
+    /*if ( nil != self.alternateXib )
     {
         return [self buildOverlayViewFromXib];
-    }
+    }*/
     CGRect bounds = self.view.bounds;
     bounds = CGRectMake(0, 0, bounds.size.width, bounds.size.height);
     
